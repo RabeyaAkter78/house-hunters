@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "House-1",
+        "url": "https://ibb.co/PCd7n98",
+        "description": "A breathtaking view of mountains."
+    },
+    {
+        "id": 2,
+        "title": "House-2",
+        "url": "https://ibb.co/Ct2h0Jn",
+        "description": "Nighttime cityscape with vibrant lights."
+    },
+    {
+        "id": 3,
+        "title": "House-3",
+        "url": "https://ibb.co/19csmN7",
+        "description": "Sunset on a serene beach."
+    },
+    {
+        "id": 4,
+        "title": "House-4",
+        "url": "https://ibb.co/nnnnPvF",
+        "description": "A peaceful path through the forest."
+    },
+    {
+        "id": 5,
+        "title": "House-5",
+        "url": "https://ibb.co/FH3r5pm",
+        "description": "Imagining the wonders of space."
+    },
+    {
+        "id": 6,
+        "title": "House-6",
+        "url": "https://example.com/desert.jpg",
+        "description": "An oasis in the midst of the desert."
+    }
+]
