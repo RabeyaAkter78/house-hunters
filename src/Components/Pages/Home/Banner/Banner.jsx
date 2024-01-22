@@ -2,8 +2,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
 
-import img1 from "../../../../assets/images/banner-1 (1).jpg";
-import img2 from "../../../../assets/images/banner-1 (2).jpg";
+import img1 from "../../../../assets/images/banner-1 (2).jpg";
+import img2 from "../../../../assets/images/banner-1 (1).jpg";
 import img3 from "../../../../assets/images/banner-3.jpg";
 
 

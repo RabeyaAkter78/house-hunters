@@ -1,39 +1,38 @@
 import logo from "../../../../assets/images/logo (1).jpg"
 const NavBar = () => {
-    const navItems = <>
-        <div className="flex-none gap-2">
-            <div className="form-control">
-                <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
-            </div>
-        </div>
-    </>
+    // const navItems = <>
+    //     <li>
+    //         <a>Login</a>
+    //         <ul className="p-2">
+    //             <li><a>House Owner</a></li>
+    //             <li><a>House Renter</a></li>
+    //         </ul>
+    //     </li>
+    // </>
 
     return (
-        <div>
-            <div className="navbar bg-base-300">
-                <div className="navbar-start">
-                    <div className="dropdown">
-                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                        </div>
-                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            {navItems}
-                        </ul>
-                    </div>
-                    <a className=" text-xl">
-                        <img className="rounded-full" src={logo} alt="" />
-                    </a>
-                </div>
-                <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
-                        {navItems}
-                    </ul>
-                </div>
-                <div className="navbar-end">
-                    <a className="btn">Button</a>
-                </div>
-            </div>
-        </div>
+        <div className="navbar bg-base-300 fixed z-10">
+  <div className="flex-1">
+    <a className=" text-xl">
+        <img className="rounded-full" src={logo} alt="" />
+    </a>
+  </div>
+  <div className="flex-none dropdown-content">
+    <ul className=" menu menu-horizontal  px-1">
+      <li>
+        <details>
+          <summary>
+            Login
+          </summary>
+          <ul className="p-2  bg-white  text-black">
+            <li><a>House Owner</a></li>
+            <li><a>House Renter</a></li>
+          </ul>
+        </details>
+      </li>
+    </ul>
+  </div>
+</div>
     );
 };
 
